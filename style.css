@@ -127,8 +127,27 @@ navbar {
 .gridLink:hover:before {
   opacity: 1;
 }
-.gridLink span {
+.gridBG {
   position: relative;
+  text-align: center;
+}
+.gridBG .wrapper {
+  position: absolute;
+  bottom: 0;
+  padding: 65px 170px;
+}
+.wrapper h2 {
+  margin-bottom: 26px;
+}
+.wrapper.green {
+  color: var(--dark-desaturated-cyan);
+}
+.wrapper.blue {
+  color: var(--dark-blue);
+}
+.wrapper p {
+  opacity: 0.7;
+  line-height: 1.5;
 }
 .testimonials {
   grid-column: 1 / span 2;
