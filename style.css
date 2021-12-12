@@ -167,7 +167,7 @@ navbar {
   letter-spacing: 5px;
 }
 .testimonialItem {
-  padding: 0 15px;
+  width: calc((100% - 60px) / 3);
 }
 .testimonialItem img {
   border-radius: 50%;
@@ -185,6 +185,18 @@ navbar {
   font-weight: 700;
   letter-spacing: 1px;
   margin-top: 20px;
+}
+.gallery {
+  grid-column: 1 / span 2;
+  display: flex;
+  max-width: 1440px;
+}
+.gallery img {
+  width: 25%;
+  height: auto;
+}
+.footer {
+  grid-column: 1 / span 2;
 }
 .attribution {
   font-size: 11px;
