@@ -152,15 +152,22 @@ navbar {
 .testimonials {
   grid-column: 1 / span 2;
   text-align: center;
+  margin: 150px;
 }
 .testimonialsContainer {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 120px;
+}
+.testimonials h2 {
+  color: var(--grayish-blue);
+  font-size: 18px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+  letter-spacing: 5px;
 }
 .testimonialItem {
-  padding: 0 25px;
+  padding: 0 15px;
 }
 .testimonialItem img {
   border-radius: 50%;
@@ -170,6 +177,14 @@ navbar {
   color: var(--dark-grayish-blue);
   line-height: 1.5;
   margin: 60px 0;
+}
+.testimonialItem .title {
+  display: inline-block;
+  color: var(--grayish-blue);
+  font-size: 14px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-top: 20px;
 }
 .attribution {
   font-size: 11px;
