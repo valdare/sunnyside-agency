@@ -80,11 +80,11 @@ navbar {
   background-color: var(--white);
   border-radius: 30px;
   padding: 15px 30px;
-  background-color ease-out .2s, color ease-out .2s;
+  background-color: ease-out 0.2s, color ease-out 0.2s;
   color: var(--very-dark-desaturated-blue);
   text-transform: uppercase;
   font-weight: 700;
-  transition: background-color ease-out .2s, color ease-out .2s;
+  transition: background-color ease-out 0.2s, color ease-out 0.2s;
 }
 .cta:hover {
   background-color: rgba(255, 255, 255, 0.25);
@@ -219,15 +219,16 @@ navbar {
 .footer a {
   color: var(--dark-moderate-cyan);
 }
-.footer a:hover, .social img:hover {
+.footer a:hover,
+.social img:hover {
   color: var(--white);
 }
 .social a {
   padding: 0 12.5px;
 }
 .socialIcon path {
-    transition: fill ease-out .2s;
+  transition: fill ease-out 0.2s;
 }
 .socialIcon path:hover {
-    fill: var(--white);
+  fill: var(--white);
 }
